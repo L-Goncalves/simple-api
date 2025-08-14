@@ -16,5 +16,5 @@ app.post('/tasks', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API rodando na porta ${PORT}`);
+  console.log(`API running on port: ${PORT}`);
 });
